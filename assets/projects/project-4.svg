@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b131f"/>
+      <stop offset="50%" stop-color="#141e2e"/>
+      <stop offset="100%" stop-color="#080e18"/>
+    </linearGradient>
+    <linearGradient id="legalGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#e8c872"/>
+    </linearGradient>
+    <linearGradient id="cardGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#162235" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0d1624" stop-opacity="0.98"/>
+    </linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad4)"/>
+
+  <!-- Subtle Legal Grid/Ornament lines -->
+  <circle cx="400" cy="250" r="300" stroke="#d4af37" stroke-width="0.5" opacity="0.08" fill="none"/>
+  <circle cx="400" cy="250" r="200" stroke="#d4af37" stroke-width="0.5" opacity="0.06" fill="none"/>
+
+  <!-- Browser Window Mockup -->
+  <g filter="url(#shadow4)">
+    <rect x="40" y="35" width="720" height="430" rx="12" fill="url(#cardGrad4)" stroke="#22334d" stroke-width="1.5"/>
+
+    <!-- Browser Header Bar -->
+    <rect x="40" y="35" width="720" height="42" rx="12" fill="#09111c"/>
+    <rect x="40" y="65" width="720" height="12" fill="#09111c"/>
+
+    <!-- Window Dots -->
+    <circle cx="68" cy="56" r="6" fill="#ef4444"/>
+    <circle cx="88" cy="56" r="6" fill="#f59e0b"/>
+    <circle cx="108" cy="56" r="6" fill="#10b981"/>
+
+    <!-- Address Bar -->
+    <rect x="140" y="44" width="390" height="24" rx="6" fill="#131e30" stroke="#22334d" stroke-width="1"/>
+    <path d="M155 56 L157 58 L163 52" stroke="#10b981" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <text x="175" y="60" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">https://siddhvidya.com</text>
+
+    <!-- Top Badge Mockup -->
+    <text x="690" y="60" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#d4af37" text-anchor="end">LEGAL FIRM PORTAL</text>
+  </g>
+
+  <!-- Website Content Preview -->
+  <!-- Tag Badge -->
+  <rect x="75" y="105" width="220" height="26" rx="13" fill="#d4af37" fill-opacity="0.15" stroke="#d4af37" stroke-opacity="0.4"/>
+  <circle cx="90" cy="118" r="4" fill="#d4af37"/>
+  <text x="102" y="122" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#e8c872" letter-spacing="0.5">MUMBAI &amp; NAVI MUMBAI</text>
+
+  <!-- Main Headline -->
+  <text x="75" y="170" font-family="'Georgia', serif" font-size="29" font-weight="700" fill="#ffffff" letter-spacing="-0.3">Siddh Vidya &amp; Associates</text>
+  <text x="75" y="202" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#d4af37">Advocates, Legal Advisors &amp; Arbitrators</text>
+  <text x="75" y="233" font-family="'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#94a3b8">Excellence · Integrity · Comprehensive Litigation &amp; Corporate Legal Services</text>
+
+  <!-- Practice Area Tags -->
+  <g transform="translate(75, 260)">
+    <rect x="0" y="0" width="130" height="28" rx="6" fill="#132135" stroke="#253a56" stroke-width="1"/>
+    <text x="65" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">Civil Litigation</text>
+
+    <rect x="140" y="0" width="125" height="28" rx="6" fill="#132135" stroke="#253a56" stroke-width="1"/>
+    <text x="202" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">Arbitration</text>
+
+    <rect x="275" y="0" width="120" height="28" rx="6" fill="#132135" stroke="#253a56" stroke-width="1"/>
+    <text x="335" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">Corporate Law</text>
+
+    <rect x="405" y="0" width="110" height="28" rx="6" fill="#132135" stroke="#253a56" stroke-width="1"/>
+    <text x="460" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">Real Estate</text>
+  </g>
+
+  <!-- Firm Stats Row -->
+  <g transform="translate(75, 315)">
+    <rect x="0" y="0" width="190" height="65" rx="8" fill="#101b2b" stroke="#22334d"/>
+    <text x="18" y="28" font-family="'Georgia', serif" font-size="18" font-weight="700" fill="#d4af37">Full-Service</text>
+    <text x="18" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Litigation &amp; Dispute Firm</text>
+
+    <rect x="205" y="0" width="200" height="65" rx="8" fill="#101b2b" stroke="#22334d"/>
+    <text x="223" y="28" font-family="'Georgia', serif" font-size="18" font-weight="700" fill="#38bdf8">High Court</text>
+    <text x="223" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Tribunals &amp; District Courts</text>
+  </g>
+
+  <!-- Right Graphic Illustration (Scales of Justice visual) -->
+  <g transform="translate(530, 115)">
+    <rect x="0" y="0" width="190" height="265" rx="10" fill="#09111c" stroke="#22334d" stroke-width="1.5"/>
+    <!-- Scales of justice SVG path -->
+    <!-- Center pillar -->
+    <line x1="95" y1="45" x2="95" y2="185" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+    <path d="M70 185 H120" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="95" cy="45" r="6" fill="#d4af37"/>
+    <!-- Beam -->
+    <line x1="45" y1="65" x2="145" y2="65" stroke="#d4af37" stroke-width="2.5"/>
+    <!-- Left pan -->
+    <line x1="45" y1="65" x2="35" y2="115" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="45" y1="65" x2="55" y2="115" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M30 115 Q45 130 60 115 Z" fill="#d4af37" fill-opacity="0.3" stroke="#d4af37" stroke-width="1.5"/>
+    <!-- Right pan -->
+    <line x1="145" y1="65" x2="135" y2="115" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="145" y1="65" x2="155" y2="115" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M130 115 Q145 130 160 115 Z" fill="#d4af37" fill-opacity="0.3" stroke="#d4af37" stroke-width="1.5"/>
+    <!-- Label -->
+    <rect x="25" y="220" width="140" height="26" rx="13" fill="#d4af37" fill-opacity="0.2"/>
+    <text x="95" y="237" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#e8c872" text-anchor="middle">TRUSTED LEGAL FIRM</text>
+  </g>
+
+  <!-- Live Link Button in Preview -->
+  <g transform="translate(75, 400)">
+    <rect x="0" y="0" width="145" height="34" rx="17" fill="url(#legalGold)"/>
+    <text x="60" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#09111c" text-anchor="middle">VISIT LAW FIRM</text>
+    <path d="M115 17 L122 17 M119 14 L122 17 L119 20" stroke="#09111c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

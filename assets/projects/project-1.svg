@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b1329"/>
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad1)"/>
+
+  <!-- Subtle Grid Lines -->
+  <path d="M0 100 H800 M0 200 H800 M0 300 H800 M0 400 H800" stroke="#334155" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.4"/>
+  <path d="M160 0 V500 M320 0 V500 M480 0 V500 M640 0 V500" stroke="#334155" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.4"/>
+
+  <!-- Browser Window Mockup -->
+  <g filter="url(#shadow1)">
+    <rect x="40" y="35" width="720" height="430" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5"/>
+
+    <!-- Browser Header Bar -->
+    <rect x="40" y="35" width="720" height="42" rx="12" fill="#0f172a"/>
+    <rect x="40" y="65" width="720" height="12" fill="#0f172a"/>
+
+    <!-- Window Dots -->
+    <circle cx="68" cy="56" r="6" fill="#ef4444"/>
+    <circle cx="88" cy="56" r="6" fill="#f59e0b"/>
+    <circle cx="108" cy="56" r="6" fill="#10b981"/>
+
+    <!-- Address Bar -->
+    <rect x="140" y="44" width="380" height="24" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <path d="M155 56 L157 58 L163 52" stroke="#10b981" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <text x="175" y="60" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">https://ironsteel.co.in</text>
+
+    <!-- Top Navigation Mockup -->
+    <text x="690" y="60" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#f59e0b" text-anchor="end">B2B PORTAL</text>
+  </g>
+
+  <!-- Website Content Preview -->
+  <!-- Brand Badge -->
+  <rect x="75" y="105" width="145" height="26" rx="13" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-opacity="0.4"/>
+  <circle cx="90" cy="118" r="4" fill="#f59e0b"/>
+  <text x="102" y="122" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" letter-spacing="1">SINCE 2002 · MUMBAI</text>
+
+  <!-- Main Headline -->
+  <text x="75" y="172" font-family="'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" fill="#ffffff" letter-spacing="-0.5">SHAH &amp; MODI</text>
+  <text x="75" y="204" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#f59e0b">Iron &amp; Steel Traders</text>
+  <text x="75" y="235" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">Engineered Steel Solutions For Global Industry</text>
+
+  <!-- Product Tag Badges -->
+  <g transform="translate(75, 260)">
+    <rect x="0" y="0" width="110" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="55" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">MS Sheets</text>
+
+    <rect x="120" y="0" width="120" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="180" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">H-Beams</text>
+
+    <rect x="250" y="0" width="115" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="307" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">GI Pipes</text>
+
+    <rect x="375" y="0" width="130" height="28" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <text x="440" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#cbd5e1" font-weight="600" text-anchor="middle">CRCA Coils</text>
+  </g>
+
+  <!-- Stats / Highlights Row -->
+  <g transform="translate(75, 315)">
+    <rect x="0" y="0" width="190" height="65" rx="8" fill="#1e293b" fill-opacity="0.8" stroke="#334155"/>
+    <text x="18" y="28" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#f59e0b">20+ Years</text>
+    <text x="18" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Industry Excellence</text>
+
+    <rect x="205" y="0" width="200" height="65" rx="8" fill="#1e293b" fill-opacity="0.8" stroke="#334155"/>
+    <text x="223" y="28" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#38bdf8">TATA · JSW</text>
+    <text x="223" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Authorised Dealer</text>
+  </g>
+
+  <!-- Right Graphic Illustration (Steel Structure Graphic) -->
+  <g transform="translate(530, 115)">
+    <rect x="0" y="0" width="190" height="265" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <!-- Steel Beam Graphic -->
+    <path d="M35 50 L155 50 M95 50 L95 190 M35 190 L155 190" stroke="#f59e0b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M50 70 L140 170 M140 70 L50 170" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4" opacity="0.6"/>
+    <!-- Label -->
+    <rect x="25" y="215" width="140" height="26" rx="13" fill="#f59e0b" fill-opacity="0.2"/>
+    <text x="95" y="232" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#fbbf24" text-anchor="middle">PAN-INDIA SUPPLY</text>
+  </g>
+
+  <!-- Live Link Button in Preview -->
+  <g transform="translate(75, 400)">
+    <rect x="0" y="0" width="145" height="34" rx="17" fill="url(#steelGrad)"/>
+    <text x="60" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0f172a" text-anchor="middle">EXPLORE SITE</text>
+    <path d="M115 17 L122 17 M119 14 L122 17 L119 20" stroke="#0f172a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

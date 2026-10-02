@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071b2f"/>
+      <stop offset="50%" stop-color="#0c2d48"/>
+      <stop offset="100%" stop-color="#041220"/>
+    </linearGradient>
+    <linearGradient id="medGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e2942" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#071929" stop-opacity="0.98"/>
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad2)"/>
+
+  <!-- Subtle Medical Pulse Line Background -->
+  <path d="M0 250 H240 L260 210 L280 290 L300 230 L320 270 L340 250 H800" stroke="#0ea5e9" stroke-width="1.2" opacity="0.15" fill="none"/>
+
+  <!-- Browser Window Mockup -->
+  <g filter="url(#shadow2)">
+    <rect x="40" y="35" width="720" height="430" rx="12" fill="url(#cardGrad2)" stroke="#1e3a5f" stroke-width="1.5"/>
+
+    <!-- Browser Header Bar -->
+    <rect x="40" y="35" width="720" height="42" rx="12" fill="#061524"/>
+    <rect x="40" y="65" width="720" height="12" fill="#061524"/>
+
+    <!-- Window Dots -->
+    <circle cx="68" cy="56" r="6" fill="#ef4444"/>
+    <circle cx="88" cy="56" r="6" fill="#f59e0b"/>
+    <circle cx="108" cy="56" r="6" fill="#10b981"/>
+
+    <!-- Address Bar -->
+    <rect x="140" y="44" width="410" height="24" rx="6" fill="#0e243a" stroke="#1e3a5f" stroke-width="1"/>
+    <path d="M155 56 L157 58 L163 52" stroke="#10b981" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <text x="175" y="60" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">https://drchandraveersinghent.com</text>
+
+    <!-- Top Badge Mockup -->
+    <text x="690" y="60" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="end">HEALTHCARE PORTAL</text>
+  </g>
+
+  <!-- Website Content Preview -->
+  <!-- Hospital Badge -->
+  <rect x="75" y="105" width="220" height="26" rx="13" fill="#0ea5e9" fill-opacity="0.15" stroke="#0ea5e9" stroke-opacity="0.4"/>
+  <circle cx="90" cy="118" r="4" fill="#0ea5e9"/>
+  <text x="102" y="122" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="0.5">WOCKHARDT HOSPITALS · MUMBAI</text>
+
+  <!-- Main Doctor Name -->
+  <text x="75" y="170" font-family="'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Dr. Chandra Veer Singh</text>
+  <text x="75" y="202" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#38bdf8">Consultant ENT &amp; Head-Neck Surgeon</text>
+  <text x="75" y="233" font-family="'Segoe UI', Roboto, sans-serif" font-size="13.5" fill="#94a3b8">Advanced Ear, Nose, Throat Treatments &amp; Endoscopic Surgeries</text>
+
+  <!-- Treatment Tags -->
+  <g transform="translate(75, 260)">
+    <rect x="0" y="0" width="135" height="28" rx="6" fill="#0e2942" stroke="#1e4770" stroke-width="1"/>
+    <text x="67" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#bae6fd" font-weight="600" text-anchor="middle">Ear Micro-Surgery</text>
+
+    <rect x="145" y="0" width="120" height="28" rx="6" fill="#0e2942" stroke="#1e4770" stroke-width="1"/>
+    <text x="205" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#bae6fd" font-weight="600" text-anchor="middle">FESS Sinus</text>
+
+    <rect x="275" y="0" width="115" height="28" rx="6" fill="#0e2942" stroke="#1e4770" stroke-width="1"/>
+    <text x="332" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#bae6fd" font-weight="600" text-anchor="middle">Voice Surgery</text>
+
+    <rect x="400" y="0" width="110" height="28" rx="6" fill="#0e2942" stroke="#1e4770" stroke-width="1"/>
+    <text x="455" y="18" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#bae6fd" font-weight="600" text-anchor="middle">Pediatric ENT</text>
+  </g>
+
+  <!-- Clinic Highlights Row -->
+  <g transform="translate(75, 315)">
+    <rect x="0" y="0" width="190" height="65" rx="8" fill="#0c2338" stroke="#1e3a5f"/>
+    <text x="18" y="28" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#38bdf8">15+ Years</text>
+    <text x="18" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Surgical Experience</text>
+
+    <rect x="205" y="0" width="200" height="65" rx="8" fill="#0c2338" stroke="#1e3a5f"/>
+    <text x="223" y="28" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#4ade80">Online Booking</text>
+    <text x="223" y="48" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" fill="#94a3b8">Patient Appointment Form</text>
+  </g>
+
+  <!-- Right Graphic Illustration (Medical Cross + Stethoscope Visual) -->
+  <g transform="translate(530, 115)">
+    <rect x="0" y="0" width="190" height="265" rx="10" fill="#061524" stroke="#1e3a5f" stroke-width="1.5"/>
+    <!-- Medical Cross -->
+    <rect x="80" y="45" width="30" height="90" rx="6" fill="#0ea5e9"/>
+    <rect x="50" y="75" width="90" height="30" rx="6" fill="#0ea5e9"/>
+    <circle cx="95" cy="90" r="18" fill="#ffffff" fill-opacity="0.2"/>
+    <!-- Stethoscope Icon Wave -->
+    <path d="M45 180 Q95 210 145 180" stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="95" cy="195" r="8" fill="#38bdf8"/>
+    <!-- Label -->
+    <rect x="25" y="220" width="140" height="26" rx="13" fill="#0ea5e9" fill-opacity="0.2"/>
+    <text x="95" y="237" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">APPOINTMENT READY</text>
+  </g>
+
+  <!-- Live Link Button in Preview -->
+  <g transform="translate(75, 400)">
+    <rect x="0" y="0" width="150" height="34" rx="17" fill="url(#medGrad)"/>
+    <text x="65" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#061524" text-anchor="middle">VIEW CLINIC SITE</text>
+    <path d="M120 17 L127 17 M124 14 L127 17 L124 20" stroke="#061524" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
